@@ -1,7 +1,39 @@
 # [Changelog](https://keepachangelog.com/en/1.0.0/)
-## [Unreleased](https://github.com/gdsfactory/gdsfactory/compare/v8.18.0...main)
+## [Unreleased](https://github.com/gdsfactory/gdsfactory/compare/v8.19.1...main)
 
 <!-- towncrier release notes start -->
+
+## [8.19.1](https://github.com/gdsfactory/gdsfactory/releases/tag/v8.19.1) - 2024-11-15
+
+- fix layer or width for bends [#3390](https://github.com/gdsfactory/gdsfactory/pull/3390)
+
+## [8.19.0](https://github.com/gdsfactory/gdsfactory/releases/tag/v8.19.0) - 2024-11-15
+
+- better netlist names for na/nb/dax/day -> columns/rows/column_pitch/row_pitch [#3380](https://github.com/gdsfactory/gdsfactory/pull/3380)
+- Fix text justify [#3388](https://github.com/gdsfactory/gdsfactory/pull/3388)
+- Fix port orientation [#3386](https://github.com/gdsfactory/gdsfactory/pull/3386)
+- fix array placement [#3385](https://github.com/gdsfactory/gdsfactory/pull/3385)
+- fix cutback_component [#3384](https://github.com/gdsfactory/gdsfactory/pull/3384)
+
+## [8.18.2](https://github.com/gdsfactory/gdsfactory/releases/tag/v8.18.2) - 2024-11-14
+
+- fix bend width [#3374](https://github.com/gdsfactory/gdsfactory/pull/3374)
+- add deprecation for ref.parent [#3377](https://github.com/gdsfactory/gdsfactory/pull/3377)
+- Cleaner to um conversion [#3375](https://github.com/gdsfactory/gdsfactory/pull/3375)
+- better pcell values [#3371](https://github.com/gdsfactory/gdsfactory/pull/3371)
+- improve_text_klayout [#3370](https://github.com/gdsfactory/gdsfactory/pull/3370)
+
+## [8.18.1](https://github.com/gdsfactory/gdsfactory/releases/tag/v8.18.1) - 2024-11-11
+
+- fix missing start/end angles arg in route_bundle [#3366](https://github.com/gdsfactory/gdsfactory/pull/3366)
+- Fix route_bundle to allow routing electrical ports like optical ones #3363  [#3365](https://github.com/gdsfactory/gdsfactory/pull/3365)
+- Fix test manifest [#3361](https://github.com/gdsfactory/gdsfactory/pull/3361)
+- simpler logic [#3364](https://github.com/gdsfactory/gdsfactory/pull/3364)
+- Document route dubin [#3367](https://github.com/gdsfactory/gdsfactory/pull/3367)
+- add code example in readme [#3358](https://github.com/gdsfactory/gdsfactory/pull/3358)
+- NEW ROUTING: Added optimal Dubins paths. [#3362](https://github.com/gdsfactory/gdsfactory/pull/3362)
+- Bump kfactory[ipy] from 0.21.6 to 0.21.7 [#3359](https://github.com/gdsfactory/gdsfactory/pull/3359)
+- Pin python max version [#3357](https://github.com/gdsfactory/gdsfactory/pull/3357)
 
 ## [8.18.0](https://github.com/gdsfactory/gdsfactory/releases/tag/v8.18.0) - 2024-11-10
 
